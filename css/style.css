@@ -80,7 +80,7 @@ section{
 
 .header .logo{
     color:var(--main-color);
-    font-size: 2.3rem;
+    width: 12vw;
 }
 
 .header .logo i{
@@ -530,6 +530,13 @@ section{
         margin-top: -6rem;
     }
 
+}
+
+@media screen and (max-width: 1024px) {
+    .header .logo {
+        height: auto;
+        width: 40vw;
+    }
 }
 
 @media(max-width:450px){
